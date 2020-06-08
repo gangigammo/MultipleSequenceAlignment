@@ -16,7 +16,10 @@ public:
     int decideStar();
     void searchPairStr(int x,int y,int cnt);
     void showPairAlignment(int piv);
-    void solveAlignment(int piv);
+    string combineStar(string str1,string str2);
+    bool finishable(vector<bool> vec);
+    void solveStarAlignment(int piv);
+    void showMultipleAlignment();
     void run();
 };
 

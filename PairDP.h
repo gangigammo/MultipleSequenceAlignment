@@ -14,7 +14,7 @@ class PairDP : public Blossum62{
 public:
     int MAXNUM;
     const int MAXSIZE= 100;
-    const int GAP = 0;
+    const int GAP = 0; //require positive number
     vector<string> name;
     vector<string> str;
     vector<int> sum;

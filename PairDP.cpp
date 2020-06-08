@@ -31,9 +31,10 @@ int PairDP::calcScore(char a,char b){
 void PairDP::cleardp(){
   for(int i = 0;i < MAXSIZE;i++){
     for(int j = 0;j < MAXSIZE;j++){
-      dp[i][j] = 0;
+      dp[i][j] = -1000000000;
     }
   }
+  dp[0][0] = 0;
 }
 
 void PairDP::embdp(int x,int y){
@@ -52,12 +53,10 @@ void PairDP::embdp(int x,int y){
 }
 
 void PairDP::calcPairScore(){
-  int val;
   int score;
   for(int i = 0;i < MAXNUM;i++){
     for(int j = 0;j < MAXNUM;j++){
       if(i == j)continue;
-      score = 0;
       embdp(i,j);
       int len1 = str[i].size();
       int len2 = str[j].size();
