@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/Blossum62.h
+iostream
+-
+vector
+-
+
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/main.cpp
+iostream
+-
+Blossum62.h
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/Blossum62.h
+
