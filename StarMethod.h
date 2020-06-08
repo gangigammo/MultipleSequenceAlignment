@@ -19,7 +19,7 @@ public:
     string combineStar(string str1,string str2);
     bool finishable(vector<bool> vec);
     void solveStarAlignment(int piv);
-    void showMultipleAlignment();
+    void showMultipleAlignment(int piv);
     void run();
 };
 

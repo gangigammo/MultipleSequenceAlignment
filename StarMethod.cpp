@@ -144,8 +144,13 @@ void StarMethod::solveStarAlignment(int piv){
   }
 }
 
-void StarMethod::showMultipleAlignment(){
+void StarMethod::showMultipleAlignment(int piv){
   for(int i = 0;i < MAXNUM;i++){
+    if(i == piv){
+      cout << "*";
+    }else{
+      cout << " ";
+    }
     printf("%5s : ",name[i].c_str());
     cout << multipleAlignment[i] << endl;
   }
@@ -164,5 +169,5 @@ void StarMethod::run(){
   }
   showPairAlignment(piv);
   solveStarAlignment(piv);
-  showMultipleAlignment();
+  showMultipleAlignment(piv);
 }
