@@ -12,9 +12,25 @@ iostream
 vector
 -
 
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/PairDP.h
+iostream
+-
+Blossum62.h
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/Blossum62.h
+vector
+-
+
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/StarMethod.h
+PairDP.h
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/PairDP.h
+
 /Users/yoshikawajunpei/Documents/src/multipleAllignment/main.cpp
 iostream
 -
 Blossum62.h
 /Users/yoshikawajunpei/Documents/src/multipleAllignment/Blossum62.h
+PairDP.h
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/PairDP.h
+StarMethod.h
+/Users/yoshikawajunpei/Documents/src/multipleAllignment/StarMethod.h
 
